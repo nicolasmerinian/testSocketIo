@@ -1,12 +1,17 @@
 <!doctype html>
 <html>
 	<head>
+		<meta charset = "utf-8" />
 		<title>Test Socket.io</title>
 		<script type = "text/javascript" src = "js/main.js"></script>
 		<link rel = "stylesheet" type = "text/css" href = "css/style.css" />
 	</head>
 	<body>
 		<p>Hello</p>
+		<script src = "/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io.connect('http://localhost:8080');
+        </script>
 	</body>
 </html>
 
